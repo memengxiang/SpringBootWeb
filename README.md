@@ -14,16 +14,26 @@
 <!--            <groupId>org.freemarker</groupId>-->
 <!--            <artifactId>freemarker</artifactId>-->
 <!--        </dependency>-->
-这两条是MyBatis-Plus代码文件生成器所用到的，以及配合
+这两条是MyBatis-Plus代码文件生成器所用到的，以及配合改图片中的此类来生成基础代码。（一般生成代码后将依赖项和该文件的代码注释）
+
 ![image](https://user-images.githubusercontent.com/39553612/122638415-8d07e780-d126-11eb-8d6e-41d408da50e3.png)
-该项目下的此文件来生成基础代码。（一般生成代码后将依赖项和该文件的代码注释）
+
 最后是项目运行的结果。
+
 ![image](https://user-images.githubusercontent.com/39553612/122638462-c6405780-d126-11eb-829d-124d9beaaaad.png)
+
+
 由于做了一个简单的用户权限管理系统，所以后续菜单可以添加。
 主页默认界面：
+
 ![image](https://user-images.githubusercontent.com/39553612/122638504-fe479a80-d126-11eb-92f4-d470f35e240e.png)
+
+
 上方导航条不会重复生成，如果没有导航条就创建，如果有则回到打开过的内容下。
+
 ![image](https://user-images.githubusercontent.com/39553612/122638530-2636fe00-d127-11eb-87c7-c25370112305.png)
+
+
 1.首先是管理员的客户管理，比较简单，可以模糊查询，详情，编辑，添加和删除。查询时带分页的。
 ![image](https://user-images.githubusercontent.com/39553612/122638562-54b4d900-d127-11eb-8644-cb83aabcf918.png)
 2.然后是账号管理
